@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  background: #fff;
+}
+
+header {
+  margin: 0 auto;
+  width: 750px;
+}
+
+h1 {
+  margin: 13px;
+  font-size: 25px;
+  color: #565050;
+  text-align: center;
+}
+
+/* form with a width, a centered margin, padding, border, border-radius, background-color, and a display */
+
+form {
+  width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+  background-color: #eee;
+  /* display: grid; */
+  /* grid-template-rows: 100px 250px; */
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(111, 118, 13);
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgba(24, 91, 224, 0.876);
+  margin: 10px 0;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+}
+
+.form-item {
+  display: grid;
+}
+
+.column1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+#browser {
+  height: 30px;
+  width: 100px;
+  border: none;
+}
+
+.btn {
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  color: #fff;
+  background: #565050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #333;
+}
+
+select {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+
+footer {
+  margin: 10px 0;
+  text-align: center;
+}
